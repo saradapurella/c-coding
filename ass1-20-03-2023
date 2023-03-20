@@ -1,0 +1,17 @@
+#include<stdio.h>
+int biggest(int a, int b);
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	int big=biggest(a,b);
+	printf("%d",big);
+	return 0;
+}
+int biggest(int a, int b)
+{
+	if(a>b)
+	return a;
+	else
+	return b;
+}
